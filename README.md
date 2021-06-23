@@ -32,6 +32,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 What does Filebeat watch for?
 
   Filebeat watches and monitors the log files or locations that users specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing. Filebeat is a lightweight shipper for forwarding and centralizing log data. Installed as an agent on the server.
+
 What does Metricbeat record?
 
  Metricbeat is a lightweight shipper that records and periodically collects metrics from the operating system and from services running on the server and takes the metrics and statistics that it collects and ships them to the output that users specify, such as Elasticsearch or Logstash.
@@ -53,11 +54,11 @@ Only the Jump box Provisioner machine can accept connections from the Internet. 
 Machines within the network can only be accessed by Jump-Box-Provisioner.
 
 Which machine did you allow to access your ELK VM?
-
 Jump-Box-Provisioner
-What was its IP address?
 
+What was its IP address?
 10.0.0.4 (Jump box Private IP)
+
 A summary of the access policies in place can be found in the table below.
 
 Name	Publicly Accessible	Allowed IP Address
@@ -69,8 +70,8 @@ ELK-web	No	10.0.0.4
 Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it was sealed from vulnerabilities.
-What is the main advantage of automating configuration with Ansible?
 
+What is the main advantage of automating configuration with Ansible?
 Free: Ansible is an open-source tool.
 Very simple to set up and use: No special coding skills are necessary to use Ansible's playbooks.
 Powerful: Ansible lets user model even highly complex IT workflows.
@@ -86,7 +87,7 @@ Increase virtual memory
 Download and launch a docker
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
 
-image
+
 
 Target Machines & Beats This ELK server is configured to monitor the following machines: List the IP addresses of the machines you are monitoring.
 
