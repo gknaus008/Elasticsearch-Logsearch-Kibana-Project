@@ -1,4 +1,4 @@
-# Homework-13-ELK
+# ELK Project
 Automated ELK Stack Deployment The files in this repository were used to configure the network depicted below.
 
  <img src="https://github.com/gknaus008/Homework-13-ELK/blob/main/Diagram/Diagram.PNG">
